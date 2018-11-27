@@ -2,11 +2,11 @@ import java.util.Random;
 
 public class FiguresFactory {
     public static Figure [] generateFigure(){
-        int radnumber = 1+(int)(Math.random()*6);
-        Figure [] array= new Figure[radnumber];
+        int randnumber = 1+(int)(Math.random()*6);
+        Figure [] array= new Figure[randnumber];
         Figure figure;
         figure = null;
-        for (int i=0; i<radnumber; i++){
+        for (int i=0; i<randnumber; i++){
             int randomnumber=0+(int)(Math.random()*3);
             switch (randomnumber){
                 case 0:
